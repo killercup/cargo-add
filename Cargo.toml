@@ -77,8 +77,8 @@ clap = { version = "4.4.2", features = ["derive", "wrap_help"], optional = true 
 clap-cargo = "0.12.0"
 subprocess = "0.2.9"
 termcolor = "1.2.0"
-toml = "0.7.6"
-toml_edit = "0.19.14"
+toml = "0.8.19"
+toml_edit = "0.22.22"
 indexmap = "1"
 url = "2.4.0"
 pathdiff = "0.2"
@@ -91,7 +91,7 @@ version = "1.0.18"
 predicates = { version = "3.0.3", features = ["color"] }
 assert_cmd = { version = "2.0.12", features = ["color-auto"] }
 assert_fs = { version = "1.0.13", features = ["color-auto"] }
-trycmd = "0.14.17"
+trycmd = "0.15.8"
 snapbox = { version = "0.6.9", features = ["cmd", "path"] }
 cargo-test-macro = "0.3"
 cargo-test-support = "0.3"
